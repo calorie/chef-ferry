@@ -23,5 +23,16 @@ template '/home/vagrant/openmpi.yaml' do
 end
 
 # execute 'install ferry' do
-#   command 'sudo ferry install'
+#   command 'ferry install -u ferry-base -u mongodb -u gluster -u openmpi -u openmpi-client'
+#   user 'vagrant'
+# end
+
+# execute 'ferry server' do
+#   command 'ferry server'
+#   user 'vagrant'
+# end
+
+# execute 'ferry start' do
+#   command 'ferry start ~/openmpi.yaml'
+#   user 'vagrant'
 # end
