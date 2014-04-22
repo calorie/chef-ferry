@@ -1,0 +1,10 @@
+source 'https://api.berkshelf.com'
+
+cookbook 'apt'
+cookbook 'timezone'
+cookbook 'build-essential'
+cookbook 'curl'
+cookbook 'git'
+cookbook 'vim'
+cookbook 'python'
+cookbook 'docker'
